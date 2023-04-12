@@ -1,0 +1,90 @@
+<!DOCTYPE html> <!--Doctype Declaration-->
+<!--Corey Lowery, Southern Illinois University, 1/23/2023, 1/23/2023-->
+
+<html lang="en"> <!--Document tree-->
+    <head> <!--Head element-->
+        <meta charset="utf-8">
+        <title>Mountain Bikeshop Rental</title>
+        <link rel="stylesheet" href="../HTML Class/Styles/Main.css">
+        <link rel="stylesheet" href="../HTML Class/Styles/SlickNav.css">
+        <meta name="description" content="Rent a bike from this family own bikeshop for a low price!">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+    </head> <!--Head element-->
+
+    <body id="Rentals"> <!--Body Element-->
+        <header id="RentalHeader"> <!-- Header -->
+            <h1 id="Rental Headers">The Mountain Bikeshop Rentals</h1>
+            <!--Navigation Menu-->
+
+            <nav id="mobile_menu"></nav>
+            <nav id="nav_menu"></nav>
+                <div idclass="topnav">
+                    <a class="active" href="#Rentals.html">Rentals</a>
+                    <a href="Sales.html">Sales</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="index.html">Home</a>
+                </div>
+            </nav>
+            </header>
+        </header> <!-- Header -->
+        <main> <!--Main Element-->
+            <section id="Leftside"> <!--Section element-->
+                <div id="MountainBike1">
+                    <img src="../HTML Class/Images/mountainbikeflying.jpg" alt="The Rocky Strider" width="500">
+                    <h2 id="RentalHeaders"><strong>The Rocky Strider</strong></h2>
+                    <p>The Rocky Strider is our best mountain bike we have for rent. This recent model comes equip with all modern mountain bike technogloy used for the most extreme of terrains.</p>
+                    <p>Due to the nature of this be we do not want to encourage customers to take this bike if they are new to the scene so<strong>WE DO NOT PROVIDE HELMET OR PADS FOR THIS BIKE</strong></p> 
+
+                    <p>Our prices include 40$ a day</p>
+                    <p>For the week it will be 190$</p>
+                    <p>Damages, late fees will apply</p>
+                </div>
+                <div id="MountainBike 2">
+                    <img src="../HTML Class/Images/mountain.png" alt="The Rock Thrower" width="500">
+                    <h3 id="RentalHeaders"><strong>The Rock Thrower</strong></h3>
+                    <p>This bike is a little older than our pervious mountain bike model but is great for the local scene. what it lacks it compensates in its speed and weight while still keeping the durablity of any modern mountain bike</p>
+                    <p>Helmet and pads included upon request</p>
+
+                    <p>Our prices include 20$</p>
+                    <p>For the week it will be 120$</p>
+                    <p>Helmet and pads 40$ <i>One time purchase</i></p>
+                    <p>Damages, and lates fees will apply</p>
+                </div>
+            </section><!--Section element-->
+            
+            <aside id="RentalsAside"><!--Aside-->
+                <section><!--Section element-->
+                    <div id="Roadbike 1">
+                        <img src="../HTML Class/Images/TourDFrance.jpg" alt="The Smooth Sailer" width="500">
+                        <h4 id="RentalHeaders"><strong>The Smooth Sailer</strong></h4>
+                        <p>This is our long distance bike we have for rent. This bike is made to be rode on pavement or smooth dirt for longer distances and gliding to perseve energy. perfect for looking at the mountain views in the area.</p>
+                        <p>Helmet and pads included upon request</p>
+
+                        <p>Our prices include 25$</p>
+                        <p>For the week it will be 140$</p>
+                        <p>Helmet and pads 30$ <i>One time purchase</i></p>
+                        <p>Damages, and late fees will apply</p>
+                    </div>
+                    <div id="RoadBike 2">
+                        <img src="../HTML Class/Images/Walmartbike.jpg" alt="The Vigilante" width="500">
+                        <h5 id="RentalHeaders"><strong>The Vigilante</strong></h5>
+                        <p>This urban bike is perfect for riding to and from in the nearby city. This bike is specifically made to go to and from locations</p>
+                        <p>Helmet and pads included upon request</p>
+
+                        <p>Our prices include 15$ daily</p>
+                        <p>for the week it woull be 100$</p>
+                        <p>Helmet and pads 30$ <i>One time purchase</i></p>
+                        <p>Damages, and lates fees will apply</p>
+                    </div>
+                </section><!--Section element-->
+            </aside> <!--Aside-->
+        </main>
+    </body> <!--Boby element-->
+</html>
