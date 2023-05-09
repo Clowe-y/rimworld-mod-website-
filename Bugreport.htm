@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bug report</title>
+        <link rel="shortcut icon" href="images/logo.webp">
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'>
+        <span>
+            
+        </span>
+        <br>
+        <span>
+        </span>
+        </div>
+        <meta name="description" content="A small company owned website for the game rimworld"> <meta name="keywords" content="basebuilder, rimworld, game, pc gaming, dwarf fortress, story teller">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <figcaption>Gameplay</figcaption>
+        <header>
+                  </header> 
+        <!-- Navigation Menu-->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm" >Home</a></li> 
+                <li><a href="Buythegame.htm">Buy the game</a></li> 
+                <li><a href="Gameplay.htm" >Gameplay</a></li>
+                <li><a href="Bugreport.htm" class="current">Bug report</a></li> 
+                <li><a href="Goal.htm" >Goal</a></li>
+                <li><a href="Plans.htm" class="lastitem">Future plans </a></li>
+            </ul> 
+        </nav>
+        <html lang="en">
+            <head>
+                <h1>Have a bug? report it here!</h1>
+                <meta charset="utf-8">
+                <title>Bug Report Form</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                            <p>How often does it occur?</p>
+                            <input type="radio" id="rarely" name="rarely" value="Rarely">
+                            <label for="rarely">Rarely |</label>
+                            <input type="radio" id="somewhat_rare" name="somewhat_rare" value="Somewhat Rarely">
+                            <label for="somewhat_rare">Somewhat Rarely |</label>
+                            <input type="radio" id="somewhat_often" name="somewhat_often" value="Somewhat Often">
+                            <label for="somewhat_often">Somewhat Often |</label>
+                            <input type="radio" id="common" name="common" value="Commonly">
+                            <label for="common">Commonly |</label>
+                            <input type="radio" id="very_often" name="very_often" value="Very Often">
+                            <label for="very_often">Very Commonly |</label>
+                            
+                            <p>Please input any debug information here:</p>
+                            <input type="text" name="debug_info" id="debug_info" placeholder="Ex. Exception at 0x0000000 - memory map">
+                            
+                            <p>Any further questions, comments or issues:</p>
+                            <input type="text" name="details" id="details" placeholder="Ex. I noticed strange game performance in some areas.">
+                            
+                            <p>Once you have confirmed everything in your bug report, hit 'submit'. You won't be able to change your bug report later.</p>
+                            <input type="submit" id="submit" name="submit" value="Submit">
+                        </form>
+                    </div>
+                </main>
+    </body>
+</html>
